@@ -222,23 +222,23 @@
   /* portfolio project images */
   /* TODO: Add portfolio project images here using background images*/
   .run-buddy {
-    
+    background-image: url("https://i.natgeofe.com/n/b06f63f1-72ef-4092-b390-7396e54144e8/h_8.03561096.jpg");
   }
   
   .led-wall {
-    
+    background-image: url("https://thorav.us/wp-content/uploads/2021/08/THOR-AV-LED-WALL-Product-Support-1666x833.jpg");
   }
   
   .react-calc {
-    
+    background-image: url("https://raw.githubusercontent.com/kml1990/react-calculator/master/src/react-calculator.png");
   }
   
   .pastel-puzzles {
-    
+    background-image: url("https://m.media-amazon.com/images/I/61cUFvrr5zL._AC_UF894,1000_QL80_.jpg");
   }
   
   .surf-report {
-    
+    background-image: url("https://cdn.shopify.com/s/files/1/0524/5225/files/bb90_1024x1024.webp?v=1677083189");
   }
   
   /* media queries */
@@ -278,4 +278,35 @@
   }
   
   /* TODO: add media query for a max-width of 768px */
+  @media screen and (max-width: 768px) {
+    header {
+      padding: 0 0 10px 0;
+      justify-content: center;
+      text-align: center;
+    }
   
+    header h1 {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: 10vw;
+    }
+  
+    header nav {
+      justify-content: center;
+    }
+  
+    .page-section > h2,
+    .page-section > div {
+      flex: 0 0 100%;
+    }
+  
+    .page-section > h2 {
+      border-right: none;
+      border-bottom: 4px solid var(--primary);
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      text-align: left;
+      font-size: 7vw;
+    }
+  }
