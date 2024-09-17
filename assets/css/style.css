@@ -309,4 +309,9 @@
       text-align: left;
       font-size: 7vw;
     }
+
+    .flex-item:first-child {
+        min-height: 200px;
+        flex-basis: 100%;
+    }
   }
