@@ -296,6 +296,10 @@
       justify-content: center;
     }
   
+    /* main {
+      flex-direction: column;
+    } */
+
     .page-section > h2,
     .page-section > div {
       flex: 0 0 100%;
@@ -310,8 +314,8 @@
       font-size: 7vw;
     }
 
-    .flex-item:first-child {
+    /* .flex-item:first-child {
         min-height: 200px;
         flex-basis: 100%;
     }
-  }
+  } */
